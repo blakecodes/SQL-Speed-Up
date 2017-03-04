@@ -1,0 +1,31 @@
+<html>
+<head>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--Custom Styles-->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<div class="container">
+    <div class="col-md-4 col-md-offset-4 holder">
+        <form action="database.php" method="post">
+            <div class="form-group">
+                <label>First Name</label>
+                <input type="text" class="form-control" name="data[]">
+            </div>
+            <div class="form-group">
+                <label>Last Name</label>
+                <input type="text" class="form-control" name="data[]">
+            </div>
+            <div class="form-group">
+                <label>E-Mail</label>
+                <input type="text" class="form-control" name="data[]">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
